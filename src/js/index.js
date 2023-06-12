@@ -27,7 +27,7 @@ formRef.addEventListener('submit', onSearch);
 //-------------------------------------------
 //-------------------------------------------
 //-------------------------------------------
-LOCALSTORAGE_KEY = 'array';
+const LOCALSTORAGE_KEY = 'array';
 localStorage.setItem(LOCALSTORAGE_KEY, JSON.stringify(arrayData));
 
 let currentPage = 1;
