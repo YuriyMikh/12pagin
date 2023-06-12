@@ -9,7 +9,7 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #eeeeee;
+  /* background-color: #eeeeee; */
   color: #212121;
   line-height: 1.5;
 }
@@ -55,7 +55,8 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: white;
+  /* background-color: white; */
+  background-color: #eeeeee;
   border-radius: 5px;
 }
 
@@ -101,4 +102,13 @@ a {
 .is-hidden {
   display: none;
 }
+
+/* .custom-tui-pagination {
+  border-radius: 50%;
+}
+
+.custom-tui-page-btn {
+  border-radius: 50%;
+} */
+
 
